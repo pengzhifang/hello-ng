@@ -17,7 +17,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build Lrirary
-        run: npm run build --base-href /hello-ng/ --prod
+        run: npm run build --prod
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
